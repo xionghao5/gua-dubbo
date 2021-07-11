@@ -1,4 +1,4 @@
-package com.gua.guadubbointerface.pojo;
+package com.gua.dubbo.api.pojo;
 
 import lombok.Data;
 
@@ -6,8 +6,10 @@ import java.math.BigDecimal;
 
 @Data
 public class Order {
+
     private String productName;
-    private Integer mount;
     private BigDecimal price;
+    private Integer mount;
     private BigDecimal total;
+
 }

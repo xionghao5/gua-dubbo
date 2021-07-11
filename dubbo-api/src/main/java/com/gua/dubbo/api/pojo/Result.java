@@ -1,4 +1,4 @@
-package com.gua.guadubbointerface.pojo;
+package com.gua.dubbo.api.pojo;
 
 import lombok.Data;
 

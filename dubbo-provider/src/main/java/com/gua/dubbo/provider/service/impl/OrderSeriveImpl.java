@@ -1,13 +1,13 @@
 package com.gua.dubbo.provider.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.gua.dubbo.api.pojo.Order;
 import com.gua.dubbo.api.pojo.Result;
 import com.gua.dubbo.api.service.OrderService;
-import org.apache.dubbo.config.annotation.DubboService;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 @Service
-@DubboService(version = "${service.version}")
+@Component
 public class OrderSeriveImpl implements OrderService {
     @Override
     public Result buy(Order order) {

@@ -2,9 +2,7 @@ package com.gua.dubbo.provider.mongodb;
 
 import com.mongodb.MongoNamespace;
 import com.mongodb.client.*;
-import org.bson.BsonDocument;
 import org.bson.Document;
-import org.bson.conversions.Bson;
 
 import java.util.ArrayList;
 import java.util.List;
